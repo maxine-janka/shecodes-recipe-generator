@@ -3,22 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Recipe Generator</title>
+  <title>📖 Recipe Generator</title>
   <link rel="stylesheet" href="src/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
+ 
+
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
   <div class="container">
-  <header>
-  <h1>AI Recipe Generator</h1>
+  
+    <header>
+      <img 
+      class="banner-image"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/061/original/Kessel-Apes.png?1714541628"
+       />
+    <div class="banner-text">
+      Recipe Generator
+    </div>
   </header>
-
+    
   <main>
-    <form id="recipe-generator-form">
+    <div class="form-wrapper">
+      <div class="form-title">Search for a recipe</div>
+      <form id="recipe-generator-form">
       <input 
       type="text" 
-      placeholder="Enter keywords for recipe"
+      placeholder="Enter keywords for recipe i.e tacos, banana, vegetarian lasagne"
       autofocus
       required 
       autocomplete="off"
@@ -27,6 +44,7 @@
       />
       <input type="submit" class="submit-button"/>
     </form>
+  </div>
     <div class="recipe-details hidden" id="recipe-details">
     </div>  
   </main>
