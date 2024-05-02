@@ -1,6 +1,6 @@
 body {
   font-family: "Playfair Display", serif;
-  background-color: #fcfbf7;
+  background-color: #262823;
 }
 
 header {
@@ -11,30 +11,47 @@ h1 {
 font-size: 60px;
 font-weight: 500;
 margin-top: 10px;
-margin-bottom: 50px;
-color: #42492b;
+margin-bottom: 32px;
+color: #cbbc86;
 line-height: 1.5;
 }
 
 h2 {
-  color: #42492b;
+  color: #cbbc86;
+  margin-bottom: 8px;
 }
 
 form {
   display: flex;
-  
 }
 
 footer {
   text-align: center;
   font-size: 12px;
   margin-top: 30px;
+  color: #dad4c1;
 }
 
 a {
-  color: #24251d;
+  color: #fff;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  color:#dad4c1;
+  line-height: 1.5;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+ul {
+ list-style: circle; 
+}
 
 .container {
   margin: 0 auto;
@@ -51,28 +68,28 @@ a {
 .banner-text {
   position: absolute;
   top: 200px; 
-  left: 68px;
+  left: 178px;
   font-size: 80px;
   font-weight: 800;
-  color: #fcf8ea;
-  
+  color: rgba(252, 248, 234, 0.7);
 }
 
 .form-title {
-  font-size: 58px;
+  font-size: 48px;
   font-weight: 500;
-  color: #24251d;;
-  padding-bottom: 22px;
+  color: #dad4c1;
+  padding-bottom: 18px;
+  text-align: center;
 }
 
 .form-wrapper {
-  background-color: #fcfcf9;
-  padding: 22px;
+  padding: 22px 0;
 }
 
 .instructions {
   padding: 16px;
   border: 1px solid #24251d;
+  background-color: #dad4c1;
   width: 100%;
   font-size: 16px;
   line-height: 20px;
@@ -82,28 +99,31 @@ a {
 }
 
 .submit-button {
-  margin-left: 22px;
-  background-color: #242424;
+  margin-left: 12px;
   border: none;
-  color: #fcf8ea;
+  background-color: #dad4c1;
+  color: #24251d;
   border-radius: 22px;
   padding: 14px 24px;
   font-size: 16px;
+  font-weight: 600;
   font-family: "Playfair Display", serif;
 }
 
 .submit-button:hover {
   cursor: pointer;
   background-color: #42492b;
+  color:#dad4c1;
   transition: 150ms ease-in-out;
 }
 .recipe-details {
   font-size: 16px;
-  background-color: #fcfcf9;
-  padding-left: 22px;
-  padding-right: 22px;
+  background-color: #262823;
+  padding: 16px 22px;
   line-height: 1.5;
-  border-left: 2px solid #494949;
+  border: 2px solid #494949;
+  border-radius: 5px;
+  color: #dad4c1;
 
 }
 
