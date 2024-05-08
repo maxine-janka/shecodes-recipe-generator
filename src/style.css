@@ -3,10 +3,6 @@ body {
   background-color: #262823;
 }
 
-header {
-  position: relative;
-}
-
 h1 {
 font-size: 60px;
 font-weight: 500;
@@ -55,39 +51,33 @@ ul {
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 80%;
 }
 
 .banner-image {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 75%;
   border-radius: 3px;
 }
 
-.banner-text {
-  position: absolute;
-  top: 200px; 
-  left: 178px;
-  font-size: 80px;
-  font-weight: 800;
-  color: rgba(252, 248, 234, 0.7);
+.form-wrapper {
+  padding: 22px 0;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 48px;
 }
 
 .form-title {
-  font-size: 48px;
+  font-size: calc(3vw + 1vh);
   font-weight: 500;
   color: #dad4c1;
   padding-bottom: 18px;
   text-align: center;
 }
 
-.form-wrapper {
-  padding: 22px 0;
-}
-
 .instructions {
-  padding: 16px;
+  padding: 14px;
   border: 1px solid #24251d;
   background-color: #dad4c1;
   width: 100%;
@@ -104,10 +94,10 @@ ul {
   background-color: #dad4c1;
   color: #24251d;
   border-radius: 22px;
-  padding: 14px 24px;
-  font-size: 16px;
+  padding: 14px 22px;
   font-weight: 600;
   font-family: "Playfair Display", serif;
+  font-size: 16px;
 }
 
 .submit-button:hover {
@@ -118,6 +108,9 @@ ul {
 }
 
 .recipe-details {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
   font-size: 16px;
   background-color: #262823;
   padding: 16px 22px;
